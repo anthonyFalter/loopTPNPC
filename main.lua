@@ -80,7 +80,6 @@ local function teleportToNPC()
             end
         else
             -- No valid NPCs found
-            break
         end
     end
 end
