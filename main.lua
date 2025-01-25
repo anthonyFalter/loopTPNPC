@@ -75,7 +75,7 @@ local function teleportToNPC()
             local health = attributes:FindFirstChild("Health")
 
             -- Wait for NPC's health to reach 0
-            while health.Value > 0 and running do
+            while health.Value > -100 and running do
                 task.wait(0.1)
             end
         else
